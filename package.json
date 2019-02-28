@@ -1,0 +1,28 @@
+{
+  "name": "mpc-web",
+  "version": "1.0.0",
+  "description": "Simple mpd client using node.js as the server backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fordi/node-mpc.git"
+  },
+  "author": "Bryan Elliott and http://github.com/badboy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fordi/node-mpc/issues"
+  },
+  "homepage": "https://github.com/Fordi/node-mpc#readme",
+  "dependencies": {
+    "less": "^3.9.0",
+    "requirejs": "^2.3.6"
+  },
+  "devDependencies": {
+    "paperboy": "0.0.5",
+    "socket.io": "^2.2.0"
+  }
+}
